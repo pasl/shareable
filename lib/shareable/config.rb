@@ -20,7 +20,7 @@ module Shareable
                     :bordercolor, :btnsrc, :via, :text, :related, :count, :lang, :counturl, :hashtags, :size, :dnt,
                     :type, :styled, :newwindow, :description, :counter, :onsuccess, :onerror, :showzero,
                     :recommendations, :points, :badge_layout, :background, :share, :kid_directed_site,
-                    :button_only, :static_link, :turbolinks
+                    :button_only, :static_link, :turbolinks, :locale
   end
 
   configure do |config|
@@ -43,6 +43,7 @@ module Shareable
     config.ref=''
     config.share='' # 'true' or 'false'. '' defaults to 'false'.
     config.kid_directed_site='' # 'true' or 'false'. '' defaults to 'false'. Facebook assumes your site is not kid friendly.
+    config.locale='' # 'fr_CA'. 'en_US' defaults to 'false'. Facebook language.
 
     ##############
     #google_plus

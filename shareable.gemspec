@@ -8,7 +8,7 @@ Gem::Specification.new do |s|
   s.name        = "shareable"
   s.version     = Shareable::VERSION
   s.authors     = ["Hermango"]
-  s.homepage    = "http://github.com/hermango/shareable"
+  s.homepage    = "http://github.com/pasl/shareable"
   s.summary     = "Simple and unobtrusive gem for adding social links to your Rails app. Rails 3 and 4 supported."
   s.description = "Add social sharing functionality to your Rails app with one method call. Shareable allows you the choice of displaying javascript buttons or static links. Configuration options for each social site are ready-to-use and entirely customizable. Please see readme for more details."
   s.require_paths = ['lib']

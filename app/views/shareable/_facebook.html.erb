@@ -31,7 +31,7 @@
   }
   var __loadFacebook = function() {
     if (facebookLoaded !== true) {
-      $('head').append("<script><%= raw(render 'shareable/partials/scripts/head/facebook', :app_id=>options[:app_id]) %><\/script>");
+      $('head').append("<script><%= raw(render 'shareable/partials/scripts/head/facebook', :app_id=>options[:app_id], :locale=>options[:locale]) %><\/script>");
     }
   };
   if (typeof $.turbo == 'undefined') {
