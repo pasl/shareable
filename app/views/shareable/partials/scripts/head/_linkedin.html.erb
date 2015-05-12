@@ -9,6 +9,6 @@ loadLinkedIn = function() { \
   delete IN; \
   $.getScript('//platform.linkedin.com/in.js', function() {linkedinLoaded = true;}); \
   return { \
-    lang: 'en_US' \
+    lang: '<%= defined?(locale)? locale.to_s : 'en_US' %>' \
   }; \
 };
