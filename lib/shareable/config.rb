@@ -29,6 +29,7 @@ module Shareable
     config.static_link=false # renders html links instead of javascript buttons.
     config.button_only=false # omit initializing javacript code. Only button code is rendered.
     config.turbolinks=false # set to true to enable turbolinks fixes. Requires jquery to work!
+    config.locale='' # 'fr_CA'. 'en_US' defaults to 'false'. Facebook and Linkedin language.
 
     ##############
     #facebook
@@ -43,7 +44,6 @@ module Shareable
     config.ref=''
     config.share='' # 'true' or 'false'. '' defaults to 'false'.
     config.kid_directed_site='' # 'true' or 'false'. '' defaults to 'false'. Facebook assumes your site is not kid friendly.
-    config.locale='' # 'fr_CA'. 'en_US' defaults to 'false'. Facebook language.
 
     ##############
     #google_plus

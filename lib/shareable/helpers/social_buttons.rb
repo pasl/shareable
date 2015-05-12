@@ -13,9 +13,9 @@ module Shareable
 
       cattr_accessor :config_options
       self.config_options = {
-      :facebook => [ :app_id, :send, :layout, :show_faces, :width, :action, :font, :colorscheme, :ref, :share, :kid_directed_site, :locale ],
+      :facebook => [ :app_id, :send, :layout, :show_faces, :width, :action, :font, :colorscheme, :ref, :share, :kid_directed_site ],
       :google_plus => [ :annotation, :recommendations, :align, :expand_to, :callback, :onstartinteraction, :onendinteraction, :size, :width ],
-      :linkedin => [ :counter, :onsuccess, :onerror, :showzero, :title, :description, :locale ],
+      :linkedin => [ :counter, :onsuccess, :onerror, :showzero, :title, :description ],
       :pinterest => [ :pin_config, :pin_do, :title, :alt, :media, :description, :pin_shape, :pin_height, :pin_color ],
       :reddit => [ :title, :target, :color, :bordercolor, :type, :styled, :newwindow, :btnsrc, :points ],
       :stumble_upon => [ :badge_layout, :title ],

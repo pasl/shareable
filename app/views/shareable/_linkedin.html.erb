@@ -21,7 +21,7 @@
   }
   var __loadLinkedin = function() {
     if (linkedinLoaded !== true) {
-      $('head').append("<script><%= raw(render 'shareable/partials/scripts/head/linkedin') %><\/script>");
+      $('head').append("<script><%= raw(render 'shareable/partials/scripts/head/linkedin', :locale=>options[:locale]) %><\/script>");
     }
   };
   if (typeof $.turbo == 'undefined') {
